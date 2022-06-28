@@ -80,10 +80,13 @@
             <div class="customers">
               <div class="email">
                 <h3>Customer/Email</h3>
-                <input type="email" name="email" />
+                <input type="email" name="email" placeholder="amadiprecious899@gmail.com"/>
                 <p class="total">Amount to pay = ₦31,666,666.67</p>
               </div>
-              <div class="ratio"></div>
+              <div class="ratio">
+                <h3>Slots/Ratio</h3>
+                <input type="number" name="number" placeholder="1" />
+              </div>
             </div>
             <button class="continue">Continue</button>
           </div>
@@ -281,6 +284,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.75px;
   color: #17A2B8;
+  padding-bottom: 10px;
 }
 button {
   background: #8A0C2C;
@@ -295,6 +299,7 @@ button {
 }
 .continue {
   width: 100%;
+  padding: 11px 22px;
 }
 .customer-container {
   border: 1px solid #CECDD2;
@@ -302,5 +307,23 @@ button {
   padding-top: 16px;
   padding-left: 21px;
   padding-right: 21px;
+  margin-bottom: 50px;
+}
+.customers {
+  display: flex;
+  justify-content: space-between;
+}
+.customers h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  color: #1C1939;
+  padding-bottom: 10px;
+}
+input {
+  border: 1px solid #CECDD2;
+  padding: 10px 18px;
 }
 </style>
